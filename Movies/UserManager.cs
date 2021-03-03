@@ -91,7 +91,7 @@ namespace Movies
                 //Får skuespiller for det man har søgt på
                 List<Actor> searchedActors = FilmManager.GetSearchActor(searchInput);
                 int input = ParseInt();
-                if (input < searchedActors.Count && input > 0)
+                if (input < searchedActors.Count && input >= 0)
                 {
                     //Viser den skuespiller man har valgt
                     UI.ActorViewer(input, searchedActors);

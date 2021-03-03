@@ -5,7 +5,6 @@ namespace Movies
     class Program
     {
 
-
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
@@ -17,8 +16,6 @@ namespace Movies
 
                 power = UserManager.MenuSelect();
             }
-
-            Console.ReadKey();
 
         }
     }
