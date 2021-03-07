@@ -14,7 +14,7 @@ namespace Movies
             {
                 UI.Menu();
 
-                power = UserManager.MenuSelect();
+                power = InfoManager.MenuSelect();
             }
 
         }

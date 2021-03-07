@@ -47,5 +47,12 @@ namespace Movies
 
         }
 
+        public Actor(string _firstname, string _lastname)
+        {
+            firstname = _firstname;
+            lastname = _lastname;
+
+        }
+
     }
 }
